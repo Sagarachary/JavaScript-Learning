@@ -12,7 +12,7 @@ let value = 3
 let negValue = -value
 
 let str1 = "hello"
-let str2 = " hitesh"
+let str2 = " Sagar"
 
 let str3 = str1 + str2
 
