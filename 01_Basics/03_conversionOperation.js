@@ -6,6 +6,8 @@ let isLoggedIn ="Sagar"
 let booleanisLoggedIn = Boolean(isLoggedIn)
 let someNumber= 33
 let stringNumber = String(someNumber)
+
+// ******************* Operations *******************
 let value = 3
 let negValue = -value
 
