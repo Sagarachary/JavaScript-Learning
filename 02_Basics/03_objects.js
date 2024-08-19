@@ -3,32 +3,42 @@
 
 // object literals
 
-const mySym = Symbol("key1")
-
+//  Lets declare a symbol in objects
+const mysymbol = Symbol("Key1")
 
 const JsUser = {
-    name: "Sagar",
-    "full name": "G. Sagar Achary",
-    [mySym]: "mykey1",
+    name: 'Sagar',
+    "full Name": "Sagar Achary",
+    [mysymbol]: "key1",
     age: 22,
-    location: "Odisha",
+    location: "Aska",
     email: "sagar@google.com",
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
 
+// One Way to declare the object is
+console .log(JsUser.name);    
+// But it's not a good Way to practice to declare the object.
+// Lets Assume to declare the object as a investigate study
+// console.log(JsUser['name']); // It's a good way to declare the object.
+// console.log(JsUser[mysymbol]); 
+// console.log(JsUser["full Name"]);
 
-JsUser.email = "Sagaar@chatgpt.com"
-// Object.freeze(JsUser)
-JsUser.email = "Sagar@microsoft.com"
+// change the value of the object
+JsUser.email = "sagar@chatgpt.com";
+//Freze the object
+// Object.freeze(JsUser);
+JsUser.email = "sagar@microsoft.com";
 // console.log(JsUser);
 
-JsUser.greeting = function(){
-    console.log("Hello JS user");
-}
-JsUser.greetingTwo = function(){
-    console.log(`Hello JS user, ${this.name}`);
+
+// Use Function
+JsUser.greetings = function (){
+    console.log("Hello, I am Sagar");
 }
 
-console.log(JsUser.greeting());
-console.log(JsUser.greetingTwo());
+JsUser.greetingsTwo = function (){
+    console.log(`Hello, I am Sagar`); //here we use the string interpolation``
+}
+console.log(JsUser.greetingsTwo);
