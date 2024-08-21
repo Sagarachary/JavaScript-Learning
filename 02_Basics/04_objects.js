@@ -70,12 +70,17 @@ const {courseInstructor: instructor} = course
 
 console.log(instructor);
 
-// {
-//     "name": "hitesh",
-//     "age": 26,
+// // {
+//     "name": "Sagar",
+//     "coursename": "js in hindi",
+//     "price": "free"
 // }
 
-
+[
+    {},
+    {},
+    {}
+]
 
 
 
