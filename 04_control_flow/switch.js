@@ -1,4 +1,13 @@
-const month = "feb"
+// switch (key) {
+//     case value:
+        
+//         break;
+
+//     default:
+//         break;
+// }
+
+const month = "march"
 
 switch (month) {
     case "jan":
