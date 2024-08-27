@@ -1,4 +1,4 @@
-const month = "march"
+const month = "feb"
 
 switch (month) {
     case "jan":
