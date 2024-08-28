@@ -1,3 +1,4 @@
+// basic syntax of the switch statement
 // switch (key) {
 //     case value:
         
@@ -8,22 +9,21 @@
 // }
 
 const month = "march"
-
 switch (month) {
-    case "jan":
+    case "january": 
         console.log("January");
         break;
     case "feb":
         console.log("feb");
         break;
     case "march":
-        console.log("march");
+        console.log("March");
         break;
     case "april":
-        console.log("april");
+        console.log("April");
         break;
 
     default:
-        console.log("default case match");
+        console.log("defult case match");
         break;
 }
