@@ -1,7 +1,7 @@
 # Projects related to DOM
 
 ## Project link
-[click here](https://stackblitz.com/edit/stackblitz-starters-994evr?file=styles.css)
+[click here](https://stackblitz.com/edit/stackblitz-starters-994evr?file=index.html)
 
 # Solution code
 
