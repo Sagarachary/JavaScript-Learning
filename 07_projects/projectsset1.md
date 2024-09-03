@@ -62,3 +62,10 @@ form.addEventListener('submit', function (e) {
   }
 });
 ```
+
+## Project 3
+
+```javascript
+  console.log("Sagar");
+
+```
