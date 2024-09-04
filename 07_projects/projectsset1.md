@@ -1,7 +1,7 @@
 # Projects related to DOM
 
 ## Project link
-[click here](https://stackblitz.com/edit/stackblitz-starters-994evr?file=index.html)
+[click here](https://stackblitz.com/edit/stackblitz-starters-xyxwlx?file=index.html)
 
 # Solution code
 
@@ -66,6 +66,13 @@ form.addEventListener('submit', function (e) {
 ## Project 3
 
 ```javascript
-  console.log("Sagar");
+  const clock = document.getElementById('clock');
+// const clock = document.querySelector('#clock')
+
+setInterval(function () {
+  let date = new Date();
+  // console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
 
 ```
