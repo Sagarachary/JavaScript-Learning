@@ -174,3 +174,11 @@ function newGame() {
 }
 
 ```
+
+## Project 5
+
+```JavaScript
+
+console.log("Sagar");
+
+```
