@@ -182,3 +182,10 @@ function newGame() {
 console.log("Sagar");
 
 ```
+
+## Project 6
+
+```JavaScript
+console.log("Sagar");
+
+```
