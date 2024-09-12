@@ -183,9 +183,9 @@ console.log("Sagar");
 
 ```
 
-## Project 6
+<!-- ## Project 6
 
 ```JavaScript
 console.log("Sagar");
 
-```
+``` -->
